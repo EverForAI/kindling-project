@@ -1,0 +1,67 @@
+{
+  "format": "kindling-verification-test-vectors-v1",
+  "test_only": true,
+  "description": "Synthetic public keys and fictional text. Never treat these test identities as project or participant keys.",
+  "trusted_test_platform_key_id": "288da2e4c8d0d72cd1702cb9212548b6066b551a239c03af2f750690409a13b5",
+  "receipt": {
+    "payload": "{\"version\":\"kindling-receipt-1\",\"id\":\"8e3be7b5-1d45-4f4d-9c91-7eaef911db42\",\"revision\":1,\"status\":\"approved\",\"received_at\":\"2026-10-31T12:00:00.000Z\",\"server_issued_at\":\"2026-10-31T12:00:01.000Z\",\"author_proof\":{\"id\":\"8e3be7b5-1d45-4f4d-9c91-7eaef911db42\",\"public_key\":{\"kty\":\"EC\",\"crv\":\"P-256\",\"x\":\"axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY\",\"y\":\"T-NC4v4af5uO5-tKfA-eFivOM1drMV7Oy7ZAaDe_UfU\"},\"signed_payload\":\"{\\\"version\\\":\\\"kindling-submission-v3\\\",\\\"id\\\":\\\"8e3be7b5-1d45-4f4d-9c91-7eaef911db42\\\",\\\"identityId\\\":\\\"77ec6ff4a7a726410b4a3be87397d1deaf41fdf80f3ea8d39fddaf8b45107ca2\\\",\\\"nickname\\\":\\\"Test participant\\\",\\\"text\\\":\\\"A public test vector for offline verification.\\\",\\\"language\\\":\\\"en\\\",\\\"messageType\\\":\\\"support\\\",\\\"aiAssisted\\\":false,\\\"termsVersion\\\":\\\"test-terms-1\\\",\\\"termsHash\\\":\\\"f3bc7c72f72c2fd79c1fe8f8919b15003367e6601ef08eb7c212ba713fae8905\\\",\\\"exceptionId\\\":\\\"kindling-test-exception-v1\\\",\\\"consent\\\":true,\\\"createdAt\\\":\\\"2026-10-31T11:59:00.000Z\\\"}\",\"signature\":\"M9noLu0SmFUbdRVoDs8ERKgkrcFF7BBBDNEolGaKETbwH_7U2a_UavVRL-PT33TlZewxutMapVWN-F-vGOpkEw\",\"algorithm\":\"ECDSA-P256-SHA256-P1363\",\"terms_version\":\"test-terms-1\",\"terms_hash\":\"f3bc7c72f72c2fd79c1fe8f8919b15003367e6601ef08eb7c212ba713fae8905\",\"consent_text\":\"Kindling public verification test terms v1\",\"training_exception\":\"kindling-test-exception-v1\"},\"releases\":[],\"events\":[]}",
+    "signature": "h5zEd-BF4nmiyLP0OSK1Z1GlnbJ4YA2iodv0J-QiD31St_Xk3-a4w8qffbxwXY14oE8VCTnNVkmsT2_AAppeWw",
+    "public_key": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "fPJ7GI0DT36KUjgDBLUaw8CJaeJ38hs1pgtI_EdmmXg",
+      "y": "B3dVENuO0EApPZrGn3Qw27p9reY86YIpngS3nSJ4c9E"
+    },
+    "key_id": "288da2e4c8d0d72cd1702cb9212548b6066b551a239c03af2f750690409a13b5",
+    "algorithm": "ECDSA-P256-SHA256-P1363"
+  },
+  "challenge": {
+    "format": "kindling-challenge-v1",
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "payload": "{\"version\":\"kindling-identity-challenge-1\",\"challenge_id\":\"f0656125-2ab5-4515-94ba-aed32938aa90\",\"identity_id\":\"77ec6ff4a7a726410b4a3be87397d1deaf41fdf80f3ea8d39fddaf8b45107ca2\",\"nonce\":\"QkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkI\",\"issued_at\":\"2026-10-31T12:00:00.000Z\",\"expires_at\":\"2026-10-31T12:10:00.000Z\"}"
+  },
+  "challenge_response": {
+    "format": "kindling-challenge-response-v1",
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "challenge_payload": "{\"version\":\"kindling-identity-challenge-1\",\"challenge_id\":\"f0656125-2ab5-4515-94ba-aed32938aa90\",\"identity_id\":\"77ec6ff4a7a726410b4a3be87397d1deaf41fdf80f3ea8d39fddaf8b45107ca2\",\"nonce\":\"QkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkI\",\"issued_at\":\"2026-10-31T12:00:00.000Z\",\"expires_at\":\"2026-10-31T12:10:00.000Z\"}",
+    "identity_id": "77ec6ff4a7a726410b4a3be87397d1deaf41fdf80f3ea8d39fddaf8b45107ca2",
+    "public_key": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY",
+      "y": "T-NC4v4af5uO5-tKfA-eFivOM1drMV7Oy7ZAaDe_UfU"
+    },
+    "signature": "1EAgtBntRvWdfTm8eeOGjaEa80VuNkZsBdyRq7VjoKsiLfVFDf8BPyrz28fKWHSCEJQzPIbQnJ5gLsxnHozOpg"
+  },
+  "tampered_receipt_payload": {
+    "payload": "{\"version\":\"kindling-receipt-1\",\"id\":\"8e3be7b5-1d45-4f4d-9c91-7eaef911db42\",\"revision\":1,\"status\":\"approved\",\"received_at\":\"2026-10-31T12:00:00.000Z\",\"server_issued_at\":\"2026-10-31T12:00:01.000Z\",\"author_proof\":{\"id\":\"8e3be7b5-1d45-4f4d-9c91-7eaef911db42\",\"public_key\":{\"kty\":\"EC\",\"crv\":\"P-256\",\"x\":\"axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY\",\"y\":\"T-NC4v4af5uO5-tKfA-eFivOM1drMV7Oy7ZAaDe_UfU\"},\"signed_payload\":\"{\\\"version\\\":\\\"kindling-submission-v3\\\",\\\"id\\\":\\\"8e3be7b5-1d45-4f4d-9c91-7eaef911db42\\\",\\\"identityId\\\":\\\"77ec6ff4a7a726410b4a3be87397d1deaf41fdf80f3ea8d39fddaf8b45107ca2\\\",\\\"nickname\\\":\\\"Test participant\\\",\\\"text\\\":\\\"A public test vector for offline verification.\\\",\\\"language\\\":\\\"en\\\",\\\"messageType\\\":\\\"support\\\",\\\"aiAssisted\\\":false,\\\"termsVersion\\\":\\\"test-terms-1\\\",\\\"termsHash\\\":\\\"f3bc7c72f72c2fd79c1fe8f8919b15003367e6601ef08eb7c212ba713fae8905\\\",\\\"exceptionId\\\":\\\"kindling-test-exception-v1\\\",\\\"consent\\\":true,\\\"createdAt\\\":\\\"2026-10-31T11:59:00.000Z\\\"}\",\"signature\":\"M9noLu0SmFUbdRVoDs8ERKgkrcFF7BBBDNEolGaKETbwH_7U2a_UavVRL-PT33TlZewxutMapVWN-F-vGOpkEw\",\"algorithm\":\"ECDSA-P256-SHA256-P1363\",\"terms_version\":\"test-terms-1\",\"terms_hash\":\"f3bc7c72f72c2fd79c1fe8f8919b15003367e6601ef08eb7c212ba713fae8905\",\"consent_text\":\"Kindling public verification test terms v1\",\"training_exception\":\"kindling-test-exception-v1\"},\"releases\":[],\"events\":[]} ",
+    "signature": "h5zEd-BF4nmiyLP0OSK1Z1GlnbJ4YA2iodv0J-QiD31St_Xk3-a4w8qffbxwXY14oE8VCTnNVkmsT2_AAppeWw",
+    "public_key": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "fPJ7GI0DT36KUjgDBLUaw8CJaeJ38hs1pgtI_EdmmXg",
+      "y": "B3dVENuO0EApPZrGn3Qw27p9reY86YIpngS3nSJ4c9E"
+    },
+    "key_id": "288da2e4c8d0d72cd1702cb9212548b6066b551a239c03af2f750690409a13b5",
+    "algorithm": "ECDSA-P256-SHA256-P1363"
+  },
+  "tampered_challenge_response": {
+    "format": "kindling-challenge-response-v1",
+    "algorithm": "ECDSA-P256-SHA256-P1363",
+    "challenge_payload": "{\"version\":\"kindling-identity-challenge-1\",\"challenge_id\":\"f0656125-2ab5-4515-94ba-aed32938aa90\",\"identity_id\":\"77ec6ff4a7a726410b4a3be87397d1deaf41fdf80f3ea8d39fddaf8b45107ca2\",\"nonce\":\"QkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkI\",\"issued_at\":\"2026-10-31T12:00:00.000Z\",\"expires_at\":\"2026-10-31T12:10:00.000Z\"}",
+    "identity_id": "77ec6ff4a7a726410b4a3be87397d1deaf41fdf80f3ea8d39fddaf8b45107ca2",
+    "public_key": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY",
+      "y": "T-NC4v4af5uO5-tKfA-eFivOM1drMV7Oy7ZAaDe_UfU"
+    },
+    "signature": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  "expected": {
+    "receipt_valid": true,
+    "challenge_response_valid": true,
+    "tampered_receipt_payload_valid": false,
+    "tampered_challenge_response_valid": false
+  }
+}

@@ -1,0 +1,26 @@
+name: Public repository checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check public surface
+        run: node scripts/check-public-surface.mjs
+      - name: Check reference implementations
+        run: |
+          node --check packages/trust-protocol/index.mjs
+          node --check packages/credential-core/index.mjs
+      - name: Validate JSON artifacts
+        run: |
+          node -e "for (const f of ['verification/test-vectors-v1.json','verification/kindling-trust-anchor-v1.json']) JSON.parse(require('fs').readFileSync(f,'utf8'))"

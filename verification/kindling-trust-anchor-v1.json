@@ -1,0 +1,13 @@
+{
+  "format": "kindling-trust-anchor-v1",
+  "platform": "火种纪",
+  "key_id": "948ace7b28cb8f864d14b0ba892fcec6cea3ddca1452f8b8cec1347998a1d65c",
+  "public_key": {
+    "kty": "EC",
+    "crv": "P-256",
+    "x": "Fly6sRUxlPNQfGn1DWFMrC5UKAiHVY-TjOGtJ07snXE",
+    "y": "szcDWKotr1sjurkwfpHaE_0crQMiqyPg-xmyAHN1hj0"
+  },
+  "published_at": "2026-10-31",
+  "previous_key_id": null
+}
